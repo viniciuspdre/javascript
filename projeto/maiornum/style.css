@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Raleway&family=Ubuntu:wght@300&display=swap');
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    font-size: 15px;
+    text-align: center;
+}
+
+body {
+    background-color: #f1e9e9;
+}
+
+#nums {
+    background-color: #6f6a6a;
+    width: 550px;
+    padding: 25px;
+    margin-left: 30%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #00000071;
+}
+
+#nums input[type="number"] {
+    box-shadow: 5px 5px 5px #00000071;
+    display: inline-block;
+    width: 154px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 12px;
+    margin-left: 17px;
+    margin-bottom: 7px;
+}
+
+#nums input[type="number"]:first-child {
+    margin-left: 0px;
+}
+
+#nums input[type="button"] {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 550px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #00000071;
+}
+
+#nums input[type="button"]:hover {
+    cursor: pointer;
+    background-color: #f1e9e9;
+    transition: 0.3s;
+}
+
+#res {
+    background-color: #f1e9e9;
+    padding: 1px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 7px;
+    box-shadow: 5px 5px 5px #00000071;
+}
+ 

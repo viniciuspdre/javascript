@@ -1,0 +1,10 @@
+/*margin: top right bottom left*/
+#patente {
+
+}
+
+#patente input {
+    display: block;
+    padding: 5px;
+    margin: 0px 0px 5px 0px;
+}

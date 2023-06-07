@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Raleway&family=Ubuntu:wght@300&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: rgb(69, 65, 65);
+}
+
+header {
+    text-align: center;
+    color: #fff
+}
+
+#pai {
+    box-shadow: 5px 5px 5px #00000092;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 33%;
+    background-color: rgb(171, 166, 166);
+    margin-left: 33% ;
+    font-size: 18px;
+}
+
+#pai input{
+    margin: auto;
+    display: block;
+    margin-top: 8px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#pai input[type="button"] {
+    padding: 8px;
+    font-size: 15px;
+}
+
+#pai input[type="button"]:hover {
+    color: #fff;
+    background-color: rgb(69, 65, 65);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#filho {
+    box-shadow: 5px 5px 5px #00000092;
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 10px;
+    width: 22%;
+    background-color: rgb(171, 166, 166);
+    padding: 1px;
+    margin-left: 40%;
+    color: #fff;
+}

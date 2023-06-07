@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaprendendo</title>
+    <script src="script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+        * {
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Yanone Kaffeesatz', sans-serif;
+        }
+
+        input {
+            margin: 10px;
+            border-radius: 5px;
+            width: 30%;
+            height: 20px;
+        }
+
+        h1 {
+            margin: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form method="post" autocomplete="off">
+            <h1>Me forneça seu nome</h1>
+            <input type="text" maxlength="30" name="nome">
+            <h1>Me forneça sua idade</h1>
+            <input type="number" name="idade"><br>
+            <input type="submit" name="enviar" value="Fornecer">
+            <p id="p">time</p>
+        </form>
+    </div>
+</body>
+</html>

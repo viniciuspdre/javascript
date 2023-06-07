@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Raleway&family=Ubuntu:wght@300&display=swap');
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+body {
+    background-color: #e2dc9f;
+}
+
+section {
+    margin: auto;
+    font-size: 15px;
+    background-color: #fff;
+    padding: 8px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.263);
+}
+
+section input {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+section input[name="enviar"] {
+    padding: 5px;
+    cursor: pointer;
+}
+
+section input[name="enviar"]:hover {
+    background-color: rgb(72, 68, 68);
+    color: #fff;
+    transition: 0.6s;
+}
+
+footer {
+    text-align: center;
+    margin-top: 8px;
+    color: #fff;
+    font-style: italic;
+}
+
+#foto {
+    margin-right: 15px;
+}

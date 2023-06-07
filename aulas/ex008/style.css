@@ -1,0 +1,9 @@
+#caixa {
+    background-color: rgb(187, 67, 218);
+    width: 500px;
+}
+
+input {
+    position: absolute;
+    margin: 15px;
+}

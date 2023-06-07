@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <header><h1>Verificador de Idade</h1></header>
+    <section>
+        <div>
+             <p>Ano de nascimento: <input type="number" name="nasc" id="nasc" min="0"></p>
+             Sexo: <input type="radio" name="sex" id="M" checked> <label>Masculino</label for="M">
+             <input type="radio" name="sex" id="F"> <label for="F">Feminino</label>
+            <p>
+                <input type="button" value="Verificar" name="enviar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            <p>Preencha os dados acima para ver o resultado</p>
+        </div>
+    </section>
+    <footer>&copy; Os direitos estão reservados a drx-.</footer>
+</body>
+</html>

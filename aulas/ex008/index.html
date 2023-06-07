@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="https://cdn.iconscout.com/icon/free/png-256/detran-3441165-2874270.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+    <style>
+        #result{
+            background-color: rgb(175, 175, 131);
+            width: 250px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistema de Multas</h1>
+    Velocidade do carro (Km/h): <input type="number" name="vel" id="vel">
+    <input type="button" value="Verificar" id="ver">
+    <h3>Saiba se foi multado:</h3>
+    <div id="result">...</div>
+
+    <script>
+        var v = document.getElementById('ver')
+        var r = document.getElementById('result')
+        v.addEventListener('click', checagem)
+
+        function checagem() {
+            let vel = document.getElementById('vel')
+            v = Number(vel.value)
+            if (v > 60){
+                r.innerHTML = 'Você foi multado!'
+            }
+            else {
+                r.innerHTML = 'Você não foi multado!'
+            }
+        }
+    </script>
+</body>
+</html>

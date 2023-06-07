@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <script>
+        function abrir(){
+            document.getElementById("pre").src = "niver-yasmin.jpg";
+        }
+        function fechar(){
+            document.getElementById("pre").src = "gift-png.webp"
+        }
+    </script>
+
+    <h1>Feliz aniversário amiga!</h1>
+    <img src="gift-png.webp" alt="presente foda" width="400" id="pre">
+    <form action="post">
+        <input type="button" value="Abrir" onclick="abrir()" class="coco">
+        <input type="button" value="Fechar" onclick="fechar()" class="coco">
+    </form>
+    <audio src="caraio.mp3" autoplay></audio>
+</body>
+</html>
